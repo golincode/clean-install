@@ -42,7 +42,7 @@ ZSH_THEME="pygmalion"
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
+HIST_STAMPS="yyyy-mm-dd"
 
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
@@ -60,6 +60,7 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 export PATH=/usr/local/php5/bin:$PATH
+export PATH=~/.composer/vendor/bin:$PATH
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
