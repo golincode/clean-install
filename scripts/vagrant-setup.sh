@@ -9,6 +9,9 @@ function setup_old_homestead {
 
 	# init homestead
 	~/.composer/vendor/bin/homestead init
+
+	# Stop using apache
+	sudo apachectl stop
 }
 
 function port_forwarding {
