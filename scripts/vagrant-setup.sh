@@ -1,6 +1,6 @@
 #! /usr/bin/env sh
 
-function setup_homestead_old {
+function setup_old_homestead {
 	# Download a specific box version
 	vagrant box add laravel/homestead --box-version 0.3.3
 
@@ -12,7 +12,6 @@ function setup_homestead_old {
 }
 
 function port_forwarding {
-
 	echo st /etc/pf.conf
 
 	echo add

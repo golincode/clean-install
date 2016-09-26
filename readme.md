@@ -9,6 +9,7 @@ This is still not finished!
 - php-setup.sh
 - homebrew.sh
 - sublime-sync.sh
+- vagrant-setup.sh
 - zsh-setup.sh
 - osx-defaults.sh
 - ssh-setup.sh

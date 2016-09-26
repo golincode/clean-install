@@ -1,7 +1,7 @@
 #! /usr/bin/env sh
 
 function install_homebrew {
-	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"	
+	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 }
 
 function install_cask {
@@ -13,7 +13,7 @@ function install_cli_tools {
 	# first install the hilarious things
 	brew install figlet sl cowsay
 	# then the useful things
-	brew install rbenv wget 
+	brew install rbenv wget
 	# then some other tools
 	brew install git-flow geoip lynx awscli ledger tig ncdu tree z
 }
@@ -28,7 +28,7 @@ function install_utility_apps {
 }
 
 function install_dev_apps {
-	brew cask install --appdir=/Applications tower sequel-pro textmate sublime-text atom google-chrome firefox sketch
+	brew cask install --appdir=/Applications tower sequel-pro textmate sublime-text atom google-chrome firefox sketch paparazzi
 	open /Applications/Sublime\ Text.app
 }
 
