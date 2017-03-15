@@ -48,3 +48,7 @@ CLONESTREAM_ORIGIN=
 
 export PATH=/usr/local/php5/bin:$PATH
 export PATH=~/.composer/vendor/bin:$PATH
+
+function cap() {
+    bundle exec cap $*
+}
