@@ -15,7 +15,7 @@ function install_cli_tools {
 	# then the useful things
 	brew install rbenv wget
 	# then some other tools
-	brew install git-flow geoip lynx awscli ledger tig ncdu tree z
+	brew install git-extras git-flow geoip lynx awscli ledger tig ncdu tree z
 }
 
 function install_utility_apps {
